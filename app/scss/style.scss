@@ -1,0 +1,48 @@
+@import "reset";
+@import "mobile";
+
+header {
+    height: 80vh;
+    background: linear-gradient(hsla(0, 0, 0, .5), hsla(0, 0, 0, .5)), url(./images/desktop/image-hero.jpg), no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10rem;
+    padding-left: 4rem;
+    position: relative;
+
+    nav, ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem 4.2rem;
+
+
+    nav {
+        position: absolute;
+        top: 2rem;
+        left: 0;
+        right: 0;
+    }
+
+        li {
+            color: hsl(0, 0, 100%);
+            margin: 0 .8rem;
+            cursor: pointer;
+        }
+    }
+
+    .header-text {
+        width: 38rem;
+        padding: 2rem;
+        border: 1.5px solid hsl(0, 0, 100%);
+        transform: translateX(4rem) translateY(3.5rem);
+
+        h1 {
+            color: hsl(0, 0, 100%);
+            font-size: 3.8rem;
+            font-weight: 200;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+    }
+}
