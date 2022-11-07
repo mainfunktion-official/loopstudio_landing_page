@@ -92,3 +92,48 @@ main {
         }
     }
 }
+
+.creations {
+
+    .creation-text-cta {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+
+        h3 {
+            font-size: 3rem;
+            font-weight: lighter;
+            text-transform: uppercase;
+        }
+
+        a {
+            background-color: hsl(0, 0, 0);
+            color: hsl(0, 0, 100%);
+            letter-spacing: 2px;
+            text-transform: lowercase;
+            font-variant: small-caps;
+            text-decoration: none;
+            padding: 1rem 5rem;
+        }
+    }
+
+}
+
+footer, ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    padding: 1rem 3rem;
+    background-color: hsl(0, 0, 0);
+    
+
+    ul li {
+        color: hsl(0, 0, 100%);
+        margin: 0 1rem;
+    }
+
+    p {
+        color: hsl(0, 0, 100%);
+    }
+}
