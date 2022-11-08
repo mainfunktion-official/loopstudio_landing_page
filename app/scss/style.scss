@@ -108,13 +108,19 @@ main {
         }
 
         a {
-            background-color: hsl(0, 0, 0);
-            color: hsl(0, 0, 100%);
+            background-color: transparent;
+            color: hsl(0, 0, 0%);
             letter-spacing: 2px;
             text-transform: lowercase;
             font-variant: small-caps;
             text-decoration: none;
             padding: 1rem 5rem;
+            border: 1.5px solid hsl(0, 0, 0%);
+
+            &:hover {
+                background-color: hsl(0, 0, 0%);
+                color: hsl(0, 0, 100%);
+            }
         }
     }
 
@@ -125,8 +131,6 @@ footer, ul {
     align-items: center;
     justify-content: space-between;  
     padding: 1rem 3rem;
-    background-color: hsl(0, 0, 0);
-    
 
     ul li {
         color: hsl(0, 0, 100%);
