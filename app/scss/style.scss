@@ -73,18 +73,18 @@ main {
             background-color: hsl(0, 0, 100%);
             width: 32rem;
             height: 25rem;
-            transform: translateX(33rem) translateY(-18rem);
+            transform: translateX(33rem) translateY(-20.5rem);
             z-index: 10;
 
             h2 {
-                font-size: 3rem;
+                font-size: 2.8rem;
                 font-weight: lighter;
                 text-transform: uppercase;
             }
 
             p {
                 color: hsl(0, 0, 55%);
-                font-size: .8rem;
+                font-size: .75rem;
                 line-height: 2;
                 letter-spacing: 1px;
                 transform: translateX(1rem) translateY(2rem);
