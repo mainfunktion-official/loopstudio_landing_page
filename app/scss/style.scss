@@ -124,6 +124,38 @@ main {
         }
     }
 
+    .creations-grid {
+        display: grid;
+        gap: 2rem;
+        padding: 6rem 0;
+
+
+        @media screen and (max-width: 430px) {
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+        @media screen and (max-width: 770px) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        @media screen and (max-width: 1400px) {
+            grid-template-columns: repeat(4, 1fr);
+        }
+
+        .grid {
+            // border: 1px solid red;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 14rem;
+
+            img {
+            width: 100%;
+            object-fit: cover;
+            }
+        }
+    }
+
 }
 
 footer {
