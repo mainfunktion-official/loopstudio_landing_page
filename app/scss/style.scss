@@ -166,7 +166,7 @@ footer, ul {
     display: flex;
     align-items: center;
     justify-content: space-between;  
-    padding: 1rem 3rem;
+    padding: 3rem;
 
     ul li {
         color: hsl(0, 0, 100%);
@@ -175,5 +175,11 @@ footer, ul {
 
     p {
         color: hsl(0, 0, 100%);
+    }
+
+    .bottom-nav {
+        img {
+            transform: translateX(4rem);
+        }
     }
 }
